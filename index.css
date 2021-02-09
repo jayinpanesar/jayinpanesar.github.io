@@ -1,0 +1,112 @@
+* {
+font-family: 'Nunito', sans-serif;
+
+}
+
+body {
+margin: 0px;
+padding: 0px;
+background-color: #F3F3F3;
+}
+
+.container-main {
+margin: 0px;
+padding: 0px;
+background-color: #F3F3F3;
+}
+
+.main-nav {
+margin: 0px;
+padding: 0px;
+background-color: #F3F3F3;
+
+}
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+.container-fluid {
+padding: 0px;
+background-color: #1C3879;
+margin: 10px 10px 0px 10px;
+border-radius: 10px;
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+.navbar-items {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 10px;
+background-color: #1C3879;
+
+}
+
+.main-nav-item {
+padding: 5px 20px;
+font-size: 2rem;
+}
+
+.nav-item {
+padding: 10px 20px;
+font-size: 1.4rem;
+}
+
+.nav-links {
+text-decoration: none;
+color: white;
+}
+
+.content {
+margin: 150px 10% 5% 10%;
+max-width: 1200px;
+align-items: center;
+/*border: 1px solid blue;*/
+}
+
+.social-twitter {
+width: 3rem;
+border-radius: 10px;
+}
+
+
+h1 {
+font-size: 20px;
+padding: 20px 0px;
+}
+
+.blog-image {
+max-width: 500px;
+padding-bottom: 20px;
+}
+
+
+.footer {
+background-color: #F3F3F3;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-around;
+padding: 40px 10%;
+justify-content: space-between;
+
+}
+
+.footer-text {
+padding-right: 30px;
+
+}
+
+.footer-social-icons {
+margin-right: 20px;
+}
