@@ -1,0 +1,144 @@
+*{
+  font-family: 'Overlock';
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-container {
+  margin: 10px;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  margin: 10px 0px 0px 10px;
+}
+
+.navbar-item {
+  color: #0B2375;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  border-bottom: 4px solid #0B2375;
+}
+
+.tradingview-widget-container {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.article-wrapper {
+  padding: 0px 100px;
+  margin-bottom: 100px;
+}
+
+.featured-article {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 0px 30px 0px;
+  border-radius: 15px;
+}
+
+.featured-article-image {
+  height: 250px;
+  margin-right: 4%;
+}
+
+.featured-article-heading {
+  margin-top: 0px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.article-tile {
+  padding: 30px;
+  text-align: center;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.article-tile:hover {
+  transform: scale(1.03);
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin: 0;
+  margin-top: 20px;
+  padding: 50px 30px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+#img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  image-rendering: auto;
+  border-radius: 10px;
+}
+
+#image {
+  border-radius: 10px
+}
+
+@media screen and (max-width:1000px) {
+  .featured-article {
+    flex-wrap: wrap;
+    margin: 0px 25px 25px 25px;
+  }
+  .featured-article-image {
+    height: 200px;
+    margin-right: 0px;
+  }
+  .article-wrapper {
+    padding: 0px;
+  }
+  .article-grid {
+    margin: 0px 25px 25px 25px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .article-grid {
+    margin: 0px 25px 25px 25px;
+    grid-template-columns: 1fr;
+  }
+}
