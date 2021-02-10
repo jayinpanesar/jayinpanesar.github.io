@@ -1,6 +1,7 @@
 *{
   font-family: 'Overlock';
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 body{
