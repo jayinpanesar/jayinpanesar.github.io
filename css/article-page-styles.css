@@ -1,5 +1,5 @@
 .main-content {
-  margin: 10px 400px;
+  margin: 10px 20%;
 }
 
 .article-content {
@@ -10,12 +10,12 @@
 }
 
 .image {
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .ra-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
 
@@ -37,7 +37,9 @@
   } 
   .ra-grid {
     grid-template-columns: 1fr 1fr;
-
+  }
+  .article-image {
+    width: 100%;
   }
 }
 
@@ -47,6 +49,8 @@
   } 
   .ra-grid {
     grid-template-columns: 1fr;
-
+  }
+  .article-content {
+    padding: 20px;
   }
 }

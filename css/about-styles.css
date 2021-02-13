@@ -1,0 +1,32 @@
+.content-wrapper {
+	margin: 20px 15% 30px 15%;
+
+}
+
+.title {
+	margin: 0 0 40px 0;
+}
+
+.person-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+	.content-wrapper {
+		margin: 20px 50px 30px 50px;
+	}
+	.person-grid {
+		grid-gap: 40px
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.person-grid {
+		grid-template-columns: 1fr;
+	}
+	.content-wrapper {
+		margin: 20px 30px 30px 30px;
+	}
+}
