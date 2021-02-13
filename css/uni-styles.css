@@ -15,7 +15,7 @@ p {
   font-size: 1.2rem;
 }
 
-.web-title {
+.main-logo {
   margin: 20px 0 10px 25px; 
   cursor: pointer;
 }
@@ -137,8 +137,10 @@ footer {
     width: 100%;
     height: 100%;
   }
-  .web-title {
-    margin: 10px 10px 10px 10px;
+}
+@media screen and (max-width: 393px){
+  .navbar-item {
+    padding: 10px 10px;
   }
 }
 

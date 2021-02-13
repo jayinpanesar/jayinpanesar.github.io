@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1000px) {
   .main-content {
-    margin: 10px 50px;
+    margin: 10px 25px;
   } 
   .ra-grid {
     grid-template-columns: 1fr 1fr;
