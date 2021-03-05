@@ -3,6 +3,15 @@
 
 }
 
+.decoration {
+	color: #5B8DA9;
+	text-decoration: none;
+}
+
+.decoration:hover {
+	text-decoration: underline;
+}
+
 .title {
 	margin: 0 0 40px 0;
 }
